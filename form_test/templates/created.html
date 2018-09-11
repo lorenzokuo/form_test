@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-US-Compatible" content="ie=edge">
+       <title>Created Page</title>
+    </head>
+    <body>
+        <div class='container'>
+            <h1>Displaying information in requst.form</h1>
+            <p>Name: {{ request.form['name'] }}</p>
+            <p>Email: {{ request.form['email'] }}</p>
+            <a href="/danger">Go Back</a>
+        </div>
+    </body>
+</html>
